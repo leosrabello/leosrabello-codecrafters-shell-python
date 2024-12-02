@@ -151,3 +151,92 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Gradle files
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Android Studio
+.idea/
+*.iml
+*.hprof
+
+# Local configuration files
+local.properties
+*.log
+
+# Logcat files
+log/
+
+# Android Emulator files
+.android/
+.emulator_console_auth_token
+
+# Cache files
+.cache/
+caches/
+
+# Build files
+build/
+*.apk
+*.ap_
+*.aab
+
+# Files for testing
+gen/
+bin/
+coverage/
+
+# IntelliJ IDEA
+*.ipr
+*.iws
+
+# Keystore files (important for security)
+*.keystore
+
+# Crashlytics and Firebase
+crashlytics.properties
+fabric.properties
+
+# Proguard files
+proguard/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.save
+
+# Additional generated files
+*.class
+*.dex
+*.jar
+*.war
+*.ear
+
+# NDK
+obj/
+*.so
+
+# Miscellaneous
+*.log
+*.lst
+*.seed
+*.pid
+
+# Operating system
+desktop.ini
